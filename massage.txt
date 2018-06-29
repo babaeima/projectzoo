@@ -18,3 +18,8 @@ Please Enter your Name and Lastname
 Plase Enter your Email
 Plase Enter your Username
 Message Box
+massage
+Please Enter your Name and Lastname
+babaieam@gmail.com
+Plase Enter your Username
+Message Box

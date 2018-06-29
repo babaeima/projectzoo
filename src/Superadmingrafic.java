@@ -1258,6 +1258,9 @@ public class Superadmingrafic extends JFrame {
                 savezookeeper.setVisible(false);
                 savevisitor.setVisible(false);
                 siasatmali.setVisible(false);
+                managereditgrafic.setVisible(false);
+                zookeepereditgrafic.setVisible(false);
+                visitoreditgrafic.setVisible(false);
                 centerPanel.setVisible(true);
 
 
@@ -1318,8 +1321,12 @@ public class Superadmingrafic extends JFrame {
                 zookeeperdepartment.setVisible(false);
                 savezookeeper.setVisible(false);
                 savevisitor.setVisible(false);
+                managereditgrafic.setVisible(false);
+                zookeepereditgrafic.setVisible(false);
+                visitoreditgrafic.setVisible(false);
                 siasatmali.setVisible(true);
                 centerPanel.setVisible(true);
+
             }
         });
 

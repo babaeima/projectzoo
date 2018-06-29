@@ -964,7 +964,8 @@ public class Managergrafic extends JFrame {
                 zookeeperdepartment.setVisible(false);
                 savezookeeper.setVisible(false);
                 savevisitor.setVisible(false);
-
+                zookeepereditgrafic.setVisible(false);
+                visitoreditgrafic.setVisible(false);
                 centerPanel.setVisible(true);
 
 

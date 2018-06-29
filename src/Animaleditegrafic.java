@@ -164,12 +164,12 @@ public class Animaleditegrafic extends JPanel {
             public void actionPerformed(ActionEvent actionEvent) {
                 if(enterfood.getText().matches("[a-zA-Z]*") && entersex.getText().matches("[a-zA-Z]*") && enternationalid.getText().matches("[0-9]*") && enternationality.getText().matches("[a-zA-Z]*")) {
                     if (ia >= 1000 & ia < 2000) {
-                        Aquatic.aquatics.get(ia).name = entername.getText();
-                        Aquatic.aquatics.get(ia).sex = entersex.getText();
-                        Aquatic.aquatics.get(ia).Nationality = enternationality.getText();
-                        Aquatic.aquatics.get(ia).National_id = enternationalid.getText();
-                        Aquatic.aquatics.get(ia).insurance = enterbime.getText();
-                        Aquatic.aquatics.get(ia).food = enterfood.getText();
+                        Aquatic.aquatics.get(ia-1000).name = entername.getText();
+                        Aquatic.aquatics.get(ia-1000).sex = entersex.getText();
+                        Aquatic.aquatics.get(ia-1000).Nationality = enternationality.getText();
+                        Aquatic.aquatics.get(ia-1000).National_id = enternationalid.getText();
+                        Aquatic.aquatics.get(ia-1000).insurance = enterbime.getText();
+                        Aquatic.aquatics.get(ia-1000).food = enterfood.getText();
                         Animal a = new Animal() {
                             @Override
                             public void save_arraylist_to_file_animal() {
@@ -181,12 +181,12 @@ public class Animaleditegrafic extends JPanel {
                         save_status.setText("Edit successfull");
                         p.setreport("Aquatic","edit");
                     } else if (ia >= 2000 & ia < 3000) {
-                        Birds.birds.get(ia).name = entername.getText();
-                        Birds.birds.get(ia).sex = entersex.getText();
-                        Birds.birds.get(ia).Nationality = enternationality.getText();
-                        Birds.birds.get(ia).National_id = enternationalid.getText();
-                        Birds.birds.get(ia).insurance = enterbime.getText();
-                        Birds.birds.get(ia).food = enterfood.getText();
+                        Birds.birds.get(ia-2000).name = entername.getText();
+                        Birds.birds.get(ia-2000).sex = entersex.getText();
+                        Birds.birds.get(ia-2000).Nationality = enternationality.getText();
+                        Birds.birds.get(ia-2000).National_id = enternationalid.getText();
+                        Birds.birds.get(ia-2000).insurance = enterbime.getText();
+                        Birds.birds.get(ia-2000).food = enterfood.getText();
                         Animal a = new Animal() {
                             @Override
                             public void save_arraylist_to_file_animal() {
@@ -198,12 +198,12 @@ public class Animaleditegrafic extends JPanel {
                         save_status.setText("Edit successfull");
                         p.setreport("Birds","edit");
                     } else if (ia >= 3000 & ia < 4000) {
-                        Wild.wilds.get(ia).name = entername.getText();
-                        Wild.wilds.get(ia).sex = entersex.getText();
-                        Wild.wilds.get(ia).Nationality = enternationality.getText();
-                        Wild.wilds.get(ia).National_id = enternationalid.getText();
-                        Wild.wilds.get(ia).insurance = enterbime.getText();
-                        Wild.wilds.get(ia).food = enterfood.getText();
+                        Wild.wilds.get(ia-3000).name = entername.getText();
+                        Wild.wilds.get(ia-3000).sex = entersex.getText();
+                        Wild.wilds.get(ia-3000).Nationality = enternationality.getText();
+                        Wild.wilds.get(ia-3000).National_id = enternationalid.getText();
+                        Wild.wilds.get(ia-3000).insurance = enterbime.getText();
+                        Wild.wilds.get(ia-3000).food = enterfood.getText();
                         Animal a = new Animal() {
                             @Override
                             public void save_arraylist_to_file_animal() {
